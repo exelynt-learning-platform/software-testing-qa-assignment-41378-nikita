@@ -59,3 +59,17 @@ Final line: `10:00 Keynote - Auditorium`
     * 8c747dd Add speakers page
     * 37f369a Add initial event schedule
     * b79a272 Initial commit
+
+## How to reproduce
+
+    git checkout -b feature/speakers
+    # add speakers.md
+    git add speakers.md && git commit -m "Add speakers page"
+    git checkout <integration-branch> && git merge feature/speakers   # fast-forward
+
+    git checkout -b edit-time && # change keynote to 10:00, commit
+    git checkout -b edit-room <integration-branch> && # change room, commit
+    git merge edit-time        # fast-forward
+    git merge edit-room        # three-way merge, CONFLICT
+    # edit schedule.md, remove markers, keep "10:00 Keynote - Auditorium"
+    git add schedule.md && git commit
