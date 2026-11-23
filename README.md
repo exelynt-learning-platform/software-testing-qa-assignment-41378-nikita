@@ -9,7 +9,8 @@ Selenium, TestNG, Maven, Java, Python, SQL
 ## How to use this repository
 Each assignment is submitted on its own branch and merged through a pull request.
 
-run the tests..
+## Running tests
+Run the test suite with `mvn test`.
 
 ## Branch Protection
 `main` is protected by a branch protection rule that requires a pull request
