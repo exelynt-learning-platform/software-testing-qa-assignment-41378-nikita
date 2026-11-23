@@ -1,2 +1,10 @@
 # software-testing-qa-assignment-41378-nikita
-Module &amp; Week Assignments - This repository contains module-wise and week-wise assignment submissions.
+## Contents
+- Module assignments
+- Week assignments
+
+## Tools
+Selenium, TestNG, Maven, Java, Python, SQL
+
+## How to use this repository
+Each assignment is submitted on its own branch and merged through a pull request.
