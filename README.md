@@ -8,3 +8,5 @@ Selenium, TestNG, Maven, Java, Python, SQL
 
 ## How to use this repository
 Each assignment is submitted on its own branch and merged through a pull request.
+
+run the tests..
